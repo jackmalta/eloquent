@@ -19,3 +19,6 @@ Route::get('/editoras', 'EditoraController@index');
 
 //Rota para 'editoras/1' por exemplo
 Route::get('/editoras/{editora}', 'EditoraController@show');
+
+//Rota dos livros
+Route::get('/livros', 'LivroController@index');
